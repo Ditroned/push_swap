@@ -6,7 +6,7 @@
 /*   By: ppizzo <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/03 21:41:22 by ppizzo            #+#    #+#             */
-/*   Updated: 2021/09/06 13:25:27 by ppizzo           ###   ########.fr       */
+/*   Updated: 2021/10/01 14:42:35 by ppizzo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -34,7 +34,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-
+/*
 int	main(void)
 {
 	char	*s1;
@@ -46,3 +46,4 @@ int	main(void)
 	printf("%s", ft_memmove(s1, s2, 5));
 	return (0);
 }
+*/
