@@ -6,7 +6,7 @@
 /*   By: ppizzo <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/30 17:06:11 by ppizzo            #+#    #+#             */
-/*   Updated: 2021/09/30 23:48:40 by ppizzo           ###   ########.fr       */
+/*   Updated: 2021/10/01 14:03:46 by ppizzo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -696,5 +696,5 @@ int	main(int argc, char **argv)
 	if (ft_list_unique(lista, argc - 1) == 0)
 		 return (ft_error(&lista));
 	end_main(argc, &lista);
-	                                            return (0);
+	return (0);
 }
